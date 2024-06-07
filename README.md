@@ -1,25 +1,37 @@
-# TypeScript Library Template
+# colorame
 
-A template repository to bootstrap your own typescript library blazingly fast.
+A library to convert colors to names and names to colors
 
 ## Features
 
-This template brings many features:
+- ⚙️  Very customizable
+- 🔒 Well tested
+- 🚀 Easy to use
 
-- **Bundling** with TypeScript declerations, ES modules and common js using [tsup](https://github.com/egoist/tsup)
-- **Tests** using [vitest](https://github.com/vitest-dev/vitest)
-- **Documentation** from JS-Doc comments using [typedoc](https://typedoc.org/)
+## Usage
 
-### CI/CD
+```typescript
+import { colorToName } from "colorame";
+console.log(cocolorToName('#d68f49')lorToName('#d68f49')); // peru
+```
 
-These are still work in progress
+## Installation
 
-- [x] Building and deploying the docs to GitHub Pages
-- [ ] Uploading the library to npm
-- [ ] Lint/Formatting checks
+```bash
+npm install colorame
+```
 
-## Getting started
+```bash
+yarn add colorame
+```
 
-1. Use this template
-2. Update the `package.json`
-3. Start writing code 🚀
+```bash
+pnpm add colorame
+```
+
+```bash
+bun add colorame
+```
+## Documentation
+
+Documentation is available [here](https://dlurak.github.io/colorame/).
